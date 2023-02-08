@@ -1,5 +1,4 @@
-// click counter
-let btnID = "";
+
 let screen = document.getElementsByClassName('screen')[0]
 displayValue = "";
 function display(){
