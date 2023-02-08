@@ -1,0 +1,67 @@
+.container{
+    border: 2px;
+    border-style:solid;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    margin:auto;
+    gap:10px;
+    align-items: center;
+    width:500px;
+    height: 500px;
+}
+
+.screen{
+    margin-top: 50px;
+    border:2px;
+    border-color: rgb(11, 220, 70);
+    border-style: inherit;
+    width: 400px;
+    height:50px;
+    text-align: end;
+    font-size: 28px;
+}
+
+.bottom-row{
+    display: flex;
+    gap:10px;
+    border-color: rgb(207, 210, 24);
+    border-style: solid;
+    padding:10px;
+    width: 400px;
+    height: 300px;
+}
+
+.inputs{
+    display: flex;
+    flex:2;
+    flex-direction: column;
+    border:2px;
+    gap:10px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    flex:1;
+
+}
+
+button{
+    padding: 5px 15px;
+    font-size: 30px;
+    background-color: white;
+}
+.operations{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    gap:10px;
+    border:2px;
+    border-color: rgb(236, 23, 30);
+    border-style: solid;
+}
